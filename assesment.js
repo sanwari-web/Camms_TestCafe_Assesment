@@ -23,8 +23,10 @@ test('CammsTestCafe_Assesment', async t => {
     await t
         //Enter User name 
         .typeText('#user-name', 'performance_glitch_user')
+
         //Enter password 
         .typeText('#password', 'secret_sauce')
+        
         //Click LogIn button 
         .click('#login-button')
 
